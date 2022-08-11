@@ -103,7 +103,7 @@ section {
       margin-right: 5%;
       padding: 0;
       width: 20%;
-      padding-top: 15%;
+      margin-top: 15%;
     }
     .imgButton {
       align-self: flex-end;

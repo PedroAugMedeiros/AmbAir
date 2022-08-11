@@ -15,7 +15,7 @@ function FormContact() {
         </Form.Text>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" />
           <Form.Text className="text-muted">
           </Form.Text>
         </Form.Group>
@@ -27,11 +27,8 @@ function FormContact() {
         </Form.Group>
         <Form.Text className="text-muted">
         </Form.Text>
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group>
+
         <Form.Group className="mb-3" controlId="number">
-          <Form.Label>Assunto</Form.Label>
           <Form.Select aria-label="Default select example">
             <option>Selecione o assunto</option>
             <option value="1">Instalação</option>
