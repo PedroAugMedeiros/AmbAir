@@ -19,59 +19,59 @@ function ExperienceHall() {
       <h1>Experiência de mercado de quem sabe o que faz</h1>
       <div className='numbers'>
         <div className='ativity'>
-          <img src={AtivityIcon}></img>
+          <img alt='img' src={AtivityIcon}></img>
           <h1>45 +</h1>
           <p>Anos de atividade e tradição</p>
         </div>
         <div className='product-release'>
-          <img src={ProductReleaseIcon}></img>
+          <img alt='img' src={ProductReleaseIcon}></img>
           <h1>50.000 +</h1>
           <p>Instalações realizadas com sucesso.</p>
         </div>
       </div>
       <div className='firstIcons'>
-        <img src={PetrobrasIcon} className='firstImg'></img>
-        <img src={AmbevIcon} className='secondImg'></img>
-        <img src={AplleIcon} className='thirdImg'></img>
+        <img alt='img' src={PetrobrasIcon} className='firstImg'></img>
+        <img alt='img' src={AmbevIcon} className='secondImg'></img>
+        <img alt='img' src={AplleIcon} className='thirdImg'></img>
       </div>
       <div className='secondIcons'>
         <div>
-          <img src={FacebookIcon} className='firstImg'></img>
+          <img alt='img' src={FacebookIcon} className='firstImg'></img>
         </div>
         <div className='textLink'>
           <h2>
             Muitos outros.
           </h2>
-          <a>
+          <p>
             Ver Portfólio
-          </a>
+          </p>
         </div>
         <div>
-          <img src={MultiplanIcon} className='thirdImg'></img>
+          <img alt='img' src={MultiplanIcon} className='thirdImg'></img>
         </div>
       </div>
-      <img src={ProductIcon} className='ProductIcon'></img>
+      <img alt='img' src={ProductIcon} className='ProductIcon'></img>
       <section>
         <h1>Confira os outros Serviços de Instalação da Ambientair</h1>
         <div>
-          <img src={Duto}></img>
+          <img alt='img' src={Duto}></img>
           <h2>Sistemas dutados</h2>
-          <button type="button"> <img className='imgButton' src={buttonIcon} /></button>
+          <button type="button"> <img className='imgButton' alt='img' src={buttonIcon} /></button>
         </div>
         <div>
-          <img src={SAIcon}></img>
+          <img alt='img' src={SAIcon}></img>
           <h2>Splits Aparentes</h2>
-          <button type="button"> <img className='imgButton' src={buttonIcon} /></button>
+          <button type="button"> <img className='imgButton' alt='img' src={buttonIcon} /></button>
         </div>
         <div>
-          <img src={ProductReleaseIcon}></img>
+          <img alt='img' src={ProductReleaseIcon}></img>
           <h2>Contratos de manutenção (PMOC)</h2>
-          <button type="button"> <img className='imgButton' src={buttonIcon} /></button>
+          <button type="button"> <img className='imgButton' alt='img' src={buttonIcon} /></button>
         </div>
         <div>
-          <img src={VRFIcon}></img>
+          <img alt='img' src={VRFIcon}></img>
           <h2>Sistemas VRF</h2>
-          <button type="button"> <img className='imgButton' src={buttonIcon} /></button>
+          <button type="button"> <img className='imgButton' alt='img' src={buttonIcon} /></button>
         </div>
       </section>
     </S.ExperienceHall>

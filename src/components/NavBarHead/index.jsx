@@ -11,18 +11,18 @@ function NavBarHead() {
       <div className='topDiv'>
         <div className='leftTopDiv'>
           <p>Redes Sociais</p>
-          <img src={SocialNet}></img>
+          <img alt='img' src={SocialNet}></img>
         </div>
         <div className='rigthTopDiv'>
-          <img src={CartIcon}></img>
+          <img alt='img' src={CartIcon}></img>
           <spam>Acessar Loja</spam>
         </div>
       </div>
       <div className='botDiv'>
-        <div className='leftBotDiv'>   <img src={TelefoneIcon} ></img>
+        <div className='leftBotDiv'>   <img alt='img' src={TelefoneIcon} ></img>
           <p>Telefone<b> (21) 2560 - 6000</b></p>
         </div>
-        <div className='rigthBotDiv'>   <img src={WhatsIcon}></img>
+        <div className='rigthBotDiv'>   <img alt='img' src={WhatsIcon}></img>
           <p><b>(21) 2560 - 6000</b></p></div>
       </div>
     </C.NavBarHead>

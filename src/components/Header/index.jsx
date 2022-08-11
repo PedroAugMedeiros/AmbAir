@@ -21,9 +21,9 @@ function Header() {
     return (
       <S.Menu>
         <div className='close'>
-          <button onClick={() => handleClick(false)}><img MenuIcon='MenuIcon' src={CloseMenu}></img></button>
+          <button onClick={() => handleClick(false)}><img MenuIcon='MenuIcon' alt='img' src={CloseMenu}></img></button>
         </div>
-        <img src={AAIcon}></img>
+        <img alt='img' src={AAIcon}></img>
         <Form.Select aria-label="Default select example">
           <option>Splits aparentes</option>
           <option value="1">1</option>
@@ -67,8 +67,8 @@ function Header() {
 
   return (
     <S.Header>
-      <img className='AAIcon' src={AmbientAirIcon}></img>
-      <button onClick={() => handleClick(true)}><img MenuIcon='MenuIcon' src={MenuIcon}></img></button>
+      <img className='AAIcon' alt='img' src={AmbientAirIcon}></img>
+      <button onClick={() => handleClick(true)}><img MenuIcon='MenuIcon' alt='img' src={MenuIcon}></img></button>
     </S.Header>
   );
 }

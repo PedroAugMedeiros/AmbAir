@@ -14,13 +14,13 @@ function CapacitsAndModels() {
         <h1>Capacidades
           e Modelos disponíveis</h1>
         <div>
-          <img src={CapacitsAndModelsIcon1}></img>
+          <img alt='img' src={CapacitsAndModelsIcon1}></img>
           <h2>Unidade Condensadora</h2>
           <h3>EXTERNA</h3>
           <spam>18.000 á 48.000 Btu</spam>
         </div>
         <div>
-          <img src={CapacitsAndModelsIcon2}></img>
+          <img alt='img' src={CapacitsAndModelsIcon2}></img>
           <h2>Unidade Evapadora</h2>
           <h3>INTERNA</h3>
           <p>Hi Wall</p>
@@ -41,10 +41,10 @@ function CapacitsAndModels() {
       </S.CapacitsAndModels>
       <S.ProductsImages>
         <TransitionBar />
-        <img src={ProductImg}></img>
+        <img alt='img' src={ProductImg}></img>
         <TransitionBar />
-        <img class='icon' src={ProductIcon}></img>
-        <img className='lastImg' src={ProductImg2}></img>
+        <img class='icon' alt='img' src={ProductIcon}></img>
+        <img className='lastImg' alt='img' src={ProductImg2}></img>
       </S.ProductsImages>
     </>
   );

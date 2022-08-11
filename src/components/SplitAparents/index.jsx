@@ -8,7 +8,7 @@ function SplitParents() {
       <div className='bgBlue1' >        <div className='bgBlue2'>
         <h3> Instalação </h3>
         <h2>Split Aparents</h2>
-        <img src={SplitAparents}></img>
+        <img alt='img' src={SplitAparents}></img>
       </div>
       </div>
       <div className='div2'>

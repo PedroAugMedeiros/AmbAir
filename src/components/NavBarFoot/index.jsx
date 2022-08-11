@@ -6,17 +6,17 @@ function NavBarFoot() {
     <C.NavBarFoot>
       <div className='firstDiv'>
         <h1>Nossa Loja</h1>
-        <button><img className='imgButton' src={buttonIcon} />
+        <button><img className='imgButton' alt='img' src={buttonIcon} />
         </button>
       </div>
       <div className='secondDiv'>
         <h1>Trabalhe Conosco</h1>
-        <button><img className='imgButton' src={buttonIcon} />
+        <button><img className='imgButton' alt='img' src={buttonIcon} />
         </button>
       </div>
       <div className='thirdDiv'>
         <h1>Contato</h1>
-        <button><img className='imgButton' src={buttonIcon} />
+        <button><img className='imgButton' alt='img' src={buttonIcon} />
         </button>
       </div>
       <div className='foursthDiv'>
