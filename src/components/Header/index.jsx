@@ -6,9 +6,6 @@ import AAIcon from '../../icons/ambientAir.svg';
 import CloseMenu from '../../icons/CloseMenu.png'
 import { Form } from 'react-bootstrap';
 
-
-
-
 function Header() {
 
   const [showMenu, setShowMenu] = useState(false)

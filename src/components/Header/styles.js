@@ -46,6 +46,11 @@ font-weight: 400;
   padding: 5%;
   padding-right: 4%;
   padding-top: 1%;
+  
+  button { 
+    background: white;
+  }
+
   img {
     margin-left: 8%;
     width: 80%;
