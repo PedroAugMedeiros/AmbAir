@@ -101,9 +101,10 @@ section {
     }
     button {
       margin-right: 5%;
-      padding: 0;
+      padding: 0%;
       width: 20%;
       margin-top: 15%;
+      background: white;
     }
     .imgButton {
       align-self: flex-end;
