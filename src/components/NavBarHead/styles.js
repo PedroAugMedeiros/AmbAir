@@ -22,10 +22,11 @@ border-radius: 0px;
       justify-content: flex-start;
       align-items: center;
       width: 55%;
+      padding: 3%;
 
       
   img {
-    width: 10%;
+    width: 40%;
     margin-right: 2%;
     }
     }
@@ -54,6 +55,7 @@ font-style: normal;
     
     p {
       margin-right: 5%;
+      margin-bottom: 0%;
     left: 3.89%;
     right: 73.33%;
     top: 11.76%;
@@ -70,7 +72,10 @@ font-style: normal;
 .botDiv {
   display: flex;
   flex-direction: row;
-  margin-top: 1%;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 0%;
+  font-size: 103%;
 
   .leftBotDiv {
     display: flex;
@@ -80,6 +85,7 @@ font-style: normal;
     width: 55%;
 
     p {
+      margin-bottom: 0%;
     left: 3.89%;
     right: 73.33%;
     top: 11.76%;
@@ -101,6 +107,7 @@ font-style: normal;
     width: 55%;
 
     p {
+      margin-bottom: 0%;
     left: 3.89%;
     right: 73.33%;
     top: 11.76%;
