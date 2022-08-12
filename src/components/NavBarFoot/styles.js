@@ -69,10 +69,10 @@ opacity: 0.5;
 }
 
 .lastDiv {
-  background-image: url(${img});
+
+  background: url(${img});
+  background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
-  margin: 2%;
-  padding: 8%;
+  width: 100%;
 }
 `;

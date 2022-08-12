@@ -1,11 +1,27 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
 export const Benefits = styled.div`
 display: flex;
 flex-direction: column;
 border-radius: 0px;
 justify-content: space-between;
 margin: 5%;
+
+${media.desktop} {
+  width: 40%;
+   position: absolute;
+   margin-top: -25%;
+   margin-left: 15%;
+   background: white;
+
+   img {
+    width: 0%;
+   }
+}
 
 img {
   margin-top: 10%;

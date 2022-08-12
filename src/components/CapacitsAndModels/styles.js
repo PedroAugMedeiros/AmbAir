@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
 export const CapacitsAndModels = styled.div`
 display: flex;
 flex-direction: column;
@@ -76,6 +80,9 @@ opacity: 0.7;
 }
 
 div {
+  ${media.desktop} {
+    margin-bottom: 2%;
+  }
   margin: 5%;
   margin-bottom: 20%;
   background: #FAFAFA;
@@ -97,6 +104,26 @@ div {
   h3 {
     font-size: 110%;
   }
+
+}
+${media.desktop} {
+  margin-left: 10%;
+  .desktopDiv {
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row; 
+   {
+    div {
+    padding: 2%;
+
+    img, h2, h3 {
+      margin: 5%;
+      padding: 2%;
+    }
+    }
+   }
+  }
+  
 }
 `
 export const ProductsImages = styled.div`
@@ -104,6 +131,16 @@ display: flex;
 flex-direction: column;
 margin-bottom: 15%;
 
+${media.desktop} {
+  margin-left: 10%;
+  margin-bottom: 0%;
+
+    width: 80%;
+    img {
+      margin-left: 30%;
+      width: 50%;
+    }
+}
 .icon {
   margin-left: 70%;
   margin-top: 158%;
@@ -111,6 +148,14 @@ margin-bottom: 15%;
   width: 25%;
 }
 .lastImg {
+  ${media.desktop} {
+    margin-left: 40%;
+      float: right;
+      width: 50%;
+      margin-top: 10%;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      
+  }
   margin-top: 25%;
 }
 `

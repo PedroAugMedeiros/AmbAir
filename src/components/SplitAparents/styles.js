@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
 export const SplitAparents = styled.div`
 display: flex;
 flex-direction: column;
@@ -14,8 +18,19 @@ width: 100%;
   background: rgb(18, 65, 133, 1);
   margin-bottom: 0%;
   border-radius: 0px 0px 7px 7px;
+  ${media.desktop} {
+    border-radius: 0px 10px 10px 10px;
+  }
 }
 .div2 {
+  ${media.desktop} {
+    width:72%;
+  margin: 4%;
+  margin-top: 60%;
+  position: absolute;
+  margin-bottom: 0%;
+  background: #F0F3F5;
+  }
   width:90%;
   margin: 5%;
   margin-top: 90%;
@@ -37,12 +52,19 @@ width: 100%;
 }
 
 .bgBlue2 {
+  ${media.desktop} {
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 5%;
+  }
   width: 100%;
   margin-bottom: 52%;
   border-radius: 0px 0px 10px 10px;
 
   h3, h2 {
     margin: 8%;
+    ${media.desktop} {
+      text-align: center;
+    }
   }
   h2 {
     margin-top: 0%;
@@ -69,5 +91,13 @@ width: 100%;
     width: 90%;
   }
 }
+}
+
+${media.desktop} {
+  margin-left: 9.99%;
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin-top: 1%;
 }
 `;

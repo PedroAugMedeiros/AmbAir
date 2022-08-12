@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
+
 export const ExperienceHall = styled.div`
 display: flex;
 flex-direction: column;
@@ -30,6 +35,9 @@ margin-top: 170%;
     }
 
     img {
+      ${media.desktop} {
+      width: 10%;
+      }
       width: 20%;
     }
   }
@@ -39,6 +47,9 @@ margin-top: 170%;
   display: flex;
   justify-content: space-between;
   margin-top: 15%;
+  ${media.desktop} {
+    margin-top: 5%;
+  }
 }
 
 .secondIcons {
@@ -48,6 +59,10 @@ margin-top: 170%;
   align-items: center;
   img {
   width: 100%;
+  ${media.desktop} {
+    width: 200%;
+    margin-top: 0%;
+  }
   }
 
   .textLink {
@@ -74,7 +89,7 @@ h1, h2 {
 .ProductIcon {
   margin-left: 65%;
   margin-top: 20%;
-  width: 25%;
+  width: 0%;
 }
 
 button {
@@ -82,11 +97,19 @@ button {
 }
 
 section {
+  ${media.desktop} {
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+  }
   margin-top: 10%;
 
   h1 {
     font-size: 150%;
     width: 70%;
+    ${media.desktop} {
+      font-size: 200%;
+    }
   }
   div {
     width: 100%;
@@ -96,6 +119,13 @@ section {
     align-items: center;
     justify-content: space-around;
 
+    ${media.desktop} {
+      img {
+        width: 10%;
+      }
+      font-size: 200%;
+    }
+    
     h2 {
       width: 60%;
     }
@@ -118,5 +148,13 @@ section {
     }
   }
 }
+}
+
+${media.desktop} {
+  margin: 10%;
+
+  .Majors {
+    width: 10%;
+  }
 }
 `;

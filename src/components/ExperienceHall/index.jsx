@@ -19,11 +19,11 @@ function ExperienceHall() {
       <h1>Experiência de mercado de quem sabe o que faz</h1>
       <div className='numbers'>
         <div className='ativity'>
-          <img alt='img' src={AtivityIcon}></img>
+          <img alt='img' className='Majors' src={AtivityIcon}></img>
           <h1>45 +</h1>
           <p>Anos de atividade e tradição</p>
         </div>
-        <div className='product-release'>
+        <div className='product-release Majors' >
           <img alt='img' src={ProductReleaseIcon}></img>
           <h1>50.000 +</h1>
           <p>Instalações realizadas com sucesso.</p>

@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
 export const NavBarHead = styled.div`
 display: flex;
 flex-direction: column;
@@ -126,6 +130,13 @@ font-style: normal;
     margin-right: 3%;
     stroke: solid;
   }
+}
+
+${media.desktop} {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin-bottom: 100%;
 }
 
 `;

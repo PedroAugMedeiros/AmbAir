@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+const media = {
+  desktop: '@media(min-width: 1000px)',
+};
+
 export const Contact = styled.div`
 display: flex;
 flex-direction: column;
@@ -19,13 +23,21 @@ h3 {
   line-height: 140%;
   color: #000000;
   opacity: 0.8;
-  font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
 }
 h1, h3 {
   margin: 5%;
 }
+
+}
+
+${media.desktop} {
+  margin-left: 5%;
+  margin-top: 110%;
+
+  img {
+    margin-left: 10%;
+    width: 50%;
+  }
 
 }
 `;
